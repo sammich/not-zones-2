@@ -5,6 +5,7 @@
   "author": "sammich <github_sam@chan1.com>",
   "private": true,
   "scripts": {
+    "start": "npm run build",
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
@@ -84,8 +85,8 @@
     "webpack-merge": "^2.6.1"
   },
   "engines": {
-    "node": ">= 4.0.0",
-    "npm": ">= 3.0.0"
+    "node": ">= 6.0.0",
+    "npm": ">= 4.0.0"
   },
   "browserslist": [
     "> 1%",
